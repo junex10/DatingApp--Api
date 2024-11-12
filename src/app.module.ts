@@ -16,7 +16,6 @@ import {
   AuthModule,
   NotificationsModule,
   ProfileModule,
-  RecipeModule,
   HomeModule
 } from 'src/controllers';
 
@@ -32,9 +31,6 @@ import {
   Person,
   Actions,
   CompanyInformation,
-  Petition,
-  Process,
-  Recipes,
 } from './models';
 
 @Module({
@@ -53,9 +49,6 @@ import {
         Person,
         Actions,
         CompanyInformation,
-        Petition,
-        Process,
-        Recipes,
       ]
     }),
     MailerModule.forRoot(MAIL_CONFIG),
@@ -74,7 +67,6 @@ import {
     SocketModule,
     NotificationsModule,
     ProfileModule,
-    RecipeModule,
     HomeModule,
 
     ScheduleModule.forRoot()

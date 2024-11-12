@@ -8,9 +8,6 @@ import { Actions } from './actions';
 import { CompanyInformation } from './company_information';
 import { Permissions } from './permissions';
 import { Person } from './person';
-import { Petition } from './petition';
-import { Process } from './process';
-import { Recipes } from './recipes';
 
 export {
 	Level,
@@ -23,7 +20,4 @@ export {
 	CompanyInformation,
 	Permissions,
 	Person,
-	Petition,
-	Process,
-	Recipes
 }

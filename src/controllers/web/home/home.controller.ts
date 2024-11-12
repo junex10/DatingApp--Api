@@ -17,7 +17,7 @@ export class HomeController {
 
     }
 
-    @Post()
+    /*@Post()
     async get(@Body() request: any, @Res() response: Response) {
         try {
             const recipes = await this.homeService.getRecipes(request);
@@ -29,5 +29,5 @@ export class HomeController {
         catch(e) {
             throw new UnprocessableEntityException('Could not get the Recipes', e.message);
         }
-    }
+    }*/
 }
