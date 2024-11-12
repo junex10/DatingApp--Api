@@ -18,9 +18,30 @@ module.exports = {
       {
         id: 2,
         main: Constants.SEEDERS.ACTIONS.MAIN,
-        module_id: Constants.SEEDERS.MODULES.RECIPES,
-        name: 'Recipes',
-        code: '/recipes'
+        module_id: Constants.SEEDERS.MODULES.SWIPE,
+        name: 'Swipe',
+        code: '/swipe'
+      },
+      {
+        id: 3,
+        main: Constants.SEEDERS.ACTIONS.MAIN,
+        module_id: Constants.SEEDERS.MODULES.MATCHES,
+        name: 'Matches',
+        code: '/matches'
+      },
+      {
+        id: 4,
+        main: Constants.SEEDERS.ACTIONS.MAIN,
+        module_id: Constants.SEEDERS.MODULES.MAIN,
+        name: 'Main',
+        code: '/main'
+      },
+      {
+        id: 5,
+        main: Constants.SEEDERS.ACTIONS.MAIN,
+        module_id: Constants.SEEDERS.MODULES.CHAT,
+        name: 'Chat',
+        code: '/chat'
       }
     ];
     return queryInterface.bulkInsert('actions',items);

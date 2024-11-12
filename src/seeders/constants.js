@@ -37,7 +37,10 @@ module.exports = {
     },
     MODULES: {
       PROFILE: 1,
-      RECIPES: 2
+      SWIPE: 2,
+      MATCHES: 3,
+      MAIN: 4,
+      CHAT: 5
     },
     ACTIONS: {
       MAIN: 1,

@@ -17,9 +17,30 @@ module.exports = {
       },
       {
         id: 2,
-        name: 'Recipes',
-        icon: 'recipes',
-        code: 'recipes',
+        name: 'Swipe',
+        icon: 'swipe',
+        code: 'swipe',
+        status: Constants.SEEDERS.MODULES_STATUS.AVAILABLE
+      },
+      {
+        id: 3,
+        name: 'Matches',
+        icon: 'matches',
+        code: 'matches',
+        status: Constants.SEEDERS.MODULES_STATUS.AVAILABLE
+      },
+      {
+        id: 4,
+        name: 'Main',
+        icon: 'main',
+        code: 'main',
+        status: Constants.SEEDERS.MODULES_STATUS.AVAILABLE
+      },
+      {
+        id: 5,
+        name: 'Chat',
+        icon: 'chat',
+        code: 'chat',
         status: Constants.SEEDERS.MODULES_STATUS.AVAILABLE
       }
     ];
