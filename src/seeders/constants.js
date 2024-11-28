@@ -45,6 +45,19 @@ module.exports = {
     ACTIONS: {
       MAIN: 1,
       NO_MAIN: 0
+    },
+    MATCHES: {
+      STAND_BY: 1,
+      REJECTED: 2,
+      ACCEPTED: 3,
+      BLOCKED: 4
+    },
+    REPORTED_USERS: {
+      RECEIVED: 1,
+      IN_PROCESS: 2,
+      REJECTED: 3,
+      ACCEPTED: 4,
+      FINISHED: 5
     }
   },
   USERS: {
