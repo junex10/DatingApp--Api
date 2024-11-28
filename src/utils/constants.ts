@@ -1,7 +1,7 @@
 enum COMPANY_INFORMATION {
-	NAME = 'Recipe Sharer',
+	NAME = 'Dating App',
 	ID = 1,
-	DESCRIPTION = 'Recipe Web to share meals'
+	DESCRIPTION = 'Dating App bruh'
 }
 enum LEVELS {
 	ADMIN = 1,
@@ -38,14 +38,17 @@ export default {
 		PROFILE: '/dashboard/profile',
 		RECIPES: '/recipes'
 	},
-	COOKING_TYPE_TIME: {
-		MINUTES: 0,
-		HOURS: 1,
-		DAYS: 2
+	MATCHES: {
+		STAND_BY: 1,
+		REJECTED: 2,
+		ACCEPTED: 3,
+		BLOCKED: 4
 	},
-	DIFFICULTY: {
-		EASY: 0,
-		MEDIUM: 1,
-		HARD: 2
+	REPORTED_USERS: {
+		RECEIVED: 1,
+		IN_PROCESS: 2,
+		REJECTED: 3,
+		ACCEPTED: 4,
+		FINISHED: 5
 	}
 }

@@ -7,7 +7,7 @@ module.exports = {
     await queryInterface.createTable('interests', {
       id: Constants.PRIMARY_KEY,
       name: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: true
       }
     });

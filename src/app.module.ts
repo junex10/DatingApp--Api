@@ -31,6 +31,20 @@ import {
   Person,
   Actions,
   CompanyInformation,
+  Chats,
+	ChatSession,
+	ChatUsers,
+	Interests,
+	Languages,
+	DatingLocation,
+	InterestsUsers,
+	LanguagesSpoken,
+	LifeStyle,
+	Likes,
+	LookingForUsers,
+	Matches,
+	ReportedUsers,
+	WorkEducation
 } from './models';
 
 @Module({
@@ -49,6 +63,20 @@ import {
         Person,
         Actions,
         CompanyInformation,
+        Chats,
+        ChatSession,
+        ChatUsers,
+        Interests,
+        Languages,
+        DatingLocation,
+        InterestsUsers,
+        LanguagesSpoken,
+        LifeStyle,
+        Likes,
+        LookingForUsers,
+        Matches,
+        ReportedUsers,
+        WorkEducation
       ]
     }),
     MailerModule.forRoot(MAIL_CONFIG),
