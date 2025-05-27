@@ -16,7 +16,11 @@ import {
   AuthModule,
   NotificationsModule,
   ProfileModule,
-  HomeModule
+  HomeModule,
+
+  // App
+
+  AppAuthModule
 } from 'src/controllers';
 
 // Models
@@ -96,6 +100,10 @@ import {
     NotificationsModule,
     ProfileModule,
     HomeModule,
+
+    //App
+
+    AppAuthModule,
 
     ScheduleModule.forRoot()
   ],
